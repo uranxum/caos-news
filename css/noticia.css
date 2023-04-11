@@ -1,0 +1,8 @@
+.texto_noticia{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    background-color: rgba(177, 187, 143, 0.712);
+}

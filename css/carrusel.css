@@ -1,0 +1,20 @@
+.texto {
+    background-color: rgba(94, 94, 95, 0.336);
+    border-radius: 10px;
+    color:  #fff;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;   
+}
+.texto a{
+    text-decoration: none;
+    background-color:  rgba(205, 216, 166, 0.466);
+    color: black;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 20px;
+}
+.texto a:hover{
+    background-color:  rgb(205, 216, 166);
+}

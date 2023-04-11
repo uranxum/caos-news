@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos news</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/newspapers-33946_640.webp" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="img/newspapers-33946_640.webp" height="45px" alt="">
+                    <h1 class="navbar-brand" href="#">CAOS NEWS</h1>
+                </div>
+                <div class="navegador">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="links">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Categorias
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="actualidad.html">Actualidad</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="deportes.html">Deportes</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="internacional.html">Internacional</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="formulario.html">Formulario</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar periodista"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="inicio-sesion">
+                    <nav class="navbar bg-body-tertiary">
+                        <form class="container-fluid justify-content-start">
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            style="margin: 5px;"
+                                data-bs-target="#myModal">Iniciar Sesión</button>
+                            <a href="registro.html" class="btn btn-sm btn-outline-secondary"  type="button" >Regístrate</a>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Iniciar Sesión</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="GET">
+                            <div class="form-group">
+                                <label for="txtUser">Usuario:</label>
+                                <input required placeholder="Ej: Usuario123" class="form-control" type="text"
+                                    id="txtUser" name="txtUser">
+                            </div>
+                            <div class="form-group">
+                                <label for="txtPass">Contraseña:</label>
+                                <input required placeholder="Ej: abcde123" class="form-control" type="password"
+                                    id="txtPass" name="txtPass">
+                            </div>
+                            <a href="periodista.html" class="btn btn-dark" type="submit" id="btnLogin" 
+                                name="btnLogin" style="margin-top: 15px; background-color: rgb(205, 216, 166); ">Enviar</a>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="carrusel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/new-brighton-1239724_640.jpg" height="900px" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="texto">
+                                <h2>NOTICIA 1</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium nulla, iste
+                                    possimus vel repudiandae ad perspiciatis inventore soluta blanditiis minima
+                                    beatae corporis vitae molestias reprehenderit eveniet quos quis qui fugit.</p>
+                                <a href="noticia.html">Leer Mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/grand-central-terminal-5075970_640.jpg" height="900px" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="texto">
+                                <h2>NOTICIA 2</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus
+                                    praesentium nisi impedit harum numquam odit ratione blanditiis ullam commodi
+                                    saepe incidunt, vel neque possimus dicta sapiente voluptates, suscipit voluptas.
+                                </p>
+                                <a href="noticia.html">Leer Mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/giraffes-627031_640.jpg" height="900px" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="texto">
+                                <h2>NOTICIA 3</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum ipsam
+                                    harum laboriosam reprehenderit aliquid dignissimos, modi iusto excepturi aliquam
+                                    accusamus eveniet voluptas debitis fuga nemo enim consectetur dolorem suscipit.
+                                </p>
+                                <a href="noticia.html">Leer Mas...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="categorias">
+            <h2 class="titulo">CATEGORIAS</h2>
+            <div class="contenedor_tipos">
+                <div class="tipo">
+                    <h3>ACTUALIDAD</h3>
+                    <img src="img/istockphoto-1295073326-612x612.jpg" height="300px" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maxime ullam, dolor voluptate
+                        ab minima? .</p>
+                    <a href="actualidad.html">VER MÁS</a>
+                </div>
+                <div class="tipo">
+                    <h3>INTERNACIONAL</h3>
+                    <img src="img/earth-3866609_640.jpg" height="300px" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maxime ullam, dolor voluptate
+                        ab minima? .</p>
+                    <a href="internacional.html">VER MÁS</a>
+                </div>
+                <div class="tipo">
+                    <h3>DEPORTES</h3>
+                    <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae maxime ullam, dolor voluptate
+                        ab minima? .</p>
+                    <a href="deportes.html">VER MÁS</a>
+                </div>
+            </div>
+        </section>
+        <section class="periodistas">
+            <h2 class="titulo">PERIODISTAS RECONOCIDOS</h2>
+            <div class="contenedor_periodistas">
+                <div class="periodista">
+                    <img src="img/descargar.jpg" alt="">
+                    <a href="periodista.html">Periodista</a>
+                </div>
+
+                <div class="periodista">
+                    <img src="img/descargar.jpg" alt="">
+                    <a href="periodista.html">Periodista</a>
+                </div>
+                <div class="periodista">
+                    <img src="img/descargar.jpg" alt="">
+                    <a href="periodista.html">Periodista</a>
+                </div>
+                <div class="periodista">
+                    <img src="img/descargar.jpg" alt="">
+                    <a href="periodista.html">Periodista</a>
+                </div>
+                <div class="periodista">
+                    <img src="img/descargar.jpg" alt="">
+                    <a href="periodista.html">Periodista</a>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="pie">
+            <div class="logo-pie">
+                <img src="img/newspapers-33946_640.webp" height="45px" alt="">
+                <h1 class="navbar-brand" href="#">CAOS NEWS</h1>
+            </div>
+            <div class="texto-pie">
+                <h3>Dirección, Comuna, País</h3>
+                <h3>Fono: +123456789</h3>
+                <h3>Email: caosnews@gmail.com</h3>
+            </div>
+        </section>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

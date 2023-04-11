@@ -1,0 +1,12 @@
+@import url(navbar.css);
+@import url(carrusel.css);
+@import url(categorias.css);
+@import url(galeria.css);
+@import url(pie_pagina.css);
+@import url(noticia.css);
+@import url(actualidad.css);
+@import url(periodista.css);
+@import url(formulario.css);
+.main{
+    width: 100%
+}

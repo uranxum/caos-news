@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos news</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/newspapers-33946_640.webp" />
+</head>
+
+<body>
+    <main class="main">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="img/newspapers-33946_640.webp" height="45px" alt="">
+                        <h1 class="navbar-brand" href="#">CAOS NEWS</h1>
+                    </div>
+                    <div class="navegador">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="links">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Categorias
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="actualidad.html">Actualidad</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="deportes.html">Deportes</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="internacional.html">Internacional</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="formulario.html">Formulario</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar periodista"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="inicio-sesion">
+                        <nav class="navbar bg-body-tertiary">
+                            <form class="container-fluid justify-content-start">
+                                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                style="margin: 5px;"
+                                    data-bs-target="#myModal">Iniciar Sesión</button>
+                                <a href="registro.html" class="btn btn-sm btn-outline-secondary"  type="button" >Regístrate</a>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </nav>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Iniciar Sesión</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" method="GET">
+                                <div class="form-group">
+                                    <label for="txtUser">Usuario:</label>
+                                    <input required placeholder="Ej: Usuario123" class="form-control" type="text"
+                                        id="txtUser" name="txtUser">
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtPass">Contraseña:</label>
+                                    <input required placeholder="Ej: abcde123" class="form-control" type="password"
+                                        id="txtPass" name="txtPass">
+                                </div>
+                                <a href="periodista.html" class="btn btn-dark" type="submit" id="btnLogin" 
+                                    name="btnLogin" style="margin-top: 15px; background-color: rgb(205, 216, 166); ">Enviar</a>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="contenedor">
+                <h2 class="titulo">Deportes</h2>
+                <div class="contenedor_tipos">
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                </div>
+                <div class="contenedor_tipos_2">
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                    <div class="noticia_actualidad">
+                        <img src="img/swimmers-79592_640.jpg" height="300px" alt="">
+                        <h3>Titulo Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis repellendus
+                            facilis quidem, sequi beatae reprehenderit itaque rem!</p>
+                        <a href="noticia.html" class="btn"
+                            style="background-color: rgb(0, 0, 0); color: rgb(205, 216, 166); margin-left: 20px;">>>></a>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section class="pie">
+            <div class="logo-pie">
+                <img src="img/newspapers-33946_640.webp" height="45px" alt="">
+                <h1 class="navbar-brand" href="#">CAOS NEWS</h1>
+            </div>
+            <div class="texto-pie">
+                <h3>Dirección, Comuna, País</h3>
+                <h3>Fono: +123456789</h3>
+                <h3>Email: caosnews@gmail.com</h3>
+            </div>
+        </section>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

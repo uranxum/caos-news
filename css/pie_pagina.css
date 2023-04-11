@@ -1,0 +1,33 @@
+.pie{
+    background-color: rgb(205, 216, 166);
+    width: 100%;
+    height: 18vh;  
+    justify-content: center; 
+}
+.logo-pie{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-pie img{
+    margin: 5px;
+}
+.texto-pie h3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
