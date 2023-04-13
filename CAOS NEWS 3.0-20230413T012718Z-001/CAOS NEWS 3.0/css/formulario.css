@@ -1,0 +1,22 @@
+.formulario{
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: rgba(177, 187, 143, 0.432);
+    margin-bottom: 10px;
+    align-items: center;
+}
+.contenedor_formulario{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

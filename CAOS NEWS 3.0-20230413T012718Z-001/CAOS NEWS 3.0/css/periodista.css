@@ -1,0 +1,66 @@
+.periodistas{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.contenedor_periodistas{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.periodista{
+    font-family: 'Times New Roman', Times, serif;
+    width: 12%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 150px;
+    padding: 10px 10px;
+}
+.periodista a{
+    text-decoration: none;
+    color: #00000098;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 150;
+}
+.periodista a:hover{
+    color: #000000;
+    background-color: rgba(205, 216, 166, 0.466);
+    border-radius: 15px;
+}
+.periodista img{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+.perfil_periodista{
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: rgba(177, 187, 143, 0.432);
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.perfil_periodista h2{
+    font-size: 50px;
+}
+.foto{
+    margin-top: 10px;
+    border-radius: 200px;
+}
+.perfil_periodista p{
+    margin-left: 10%;
+    margin-right: 10%;
+}

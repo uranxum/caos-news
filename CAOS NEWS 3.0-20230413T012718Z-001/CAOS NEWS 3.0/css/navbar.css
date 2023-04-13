@@ -1,0 +1,46 @@
+
+.logo {
+    width: auto;
+    display: flex;
+    font-weight: 700;
+    background-color: rgba(205, 216, 166, 0.466);
+    border-radius: 25px;
+}
+.logo h1{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+.d-flex {
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navegador{
+    width: auto;
+    
+}
+.inicio-sesion{
+    width: auto;    
+    background-color: rgb(205, 216, 166); 
+    color:rgb(0, 0, 0); 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.links{
+    width: auto;
+    
+}
+.links a{
+    font-size: 20px;
+    font-weight: 470;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navegador a:hover{
+    border-radius: 20px;
+    background-color: rgba(205, 216, 166, 0.466);   
+}
+.modal{
+    font-family: 'Times New Roman', Times, serif;
+}
